@@ -1,0 +1,14 @@
+49,53c49
+<         #self.nr=12+2*self.l
+< 
+<     """Added by SymSum Team : Explicitly setting number of rounds nr"""
+<     def setNR(self,nr):
+<         self.nr=nr
+---
+>         self.nr=12+2*self.l
+137,139c133
+< 		 """Added by SymSum Team : Visualize lanes as full 16 nibble HEX strings"""
+< 		 #line.append(hex(state[x][y])) 
+<                  line.append(format(state[x][y], '016x'))
+---
+>                  line.append(hex(state[x][y]))
