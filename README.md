@@ -7,11 +7,11 @@ Content
 SymSum implementation in Python, Using Keccak implementation supporting the FIPS 202 standard instances.
 
 Files :
-	- Keccak.py : The Keccak and KeccakError classes - From Keccak Team : keccak.noekeon.org
-	  - Modification : Added function to explicitly set number of round and modified output visuatization
-	- diff.txt : File diff with original Keccak Implementation
-	- libSymSum.py : Supporting functions for SymSum computation - getBaseMsg, genMsg, verifySymSum
-	- symSum.py: Python Script to test nature of Output-Sum
+    - Keccak.py : The Keccak and KeccakError classes - From Keccak Team : keccak.noekeon.org
+    - Modification : Added function to explicitly set number of round and modified output visuatization
+    - diff.txt : File diff with original Keccak Implementation
+        - libSymSum.py : Supporting functions for SymSum computation - getBaseMsg, genMsg, verifySymSum
+        - symSum.py: Python Script to test nature of Output-Sum
 
 Usage : 
 	python symSum.py <SHA3-Variant> <#Rounds> <Order of Derivative> <Output Hash-Length (Optional)>
