@@ -1,6 +1,9 @@
 # symSum
 Verify the SymSum distinguisher for SHA-3/Keccak
 
+# Reference
+https://eprint.iacr.org/2017/165
+
 ## Content
 -------
 
@@ -34,7 +37,7 @@ Note: No sanity check done. Responsibility of User to conform to usage.
 
 Sample Output 1:-------------------------------------------------------------------- 
 
-python symSum.py 'SHA3_224' 4 8 96
+`python symSum.py 'SHA3_224' 4 8 96`
 
 `Base Message = b50c169ab50c169a9d2f49ff9d2f49ff6c76a1fc6c76a1fcd1774952d1774952ff87b7c0ff87b7c014529dc014529dc0bfd5ba30bfd5ba304708247c4708247c4c5a35794c5a357951d9efaf51d9efaf364a5bb2364a5bb297acc4a697acc4a62fed3b032fed3b03b5946acbb5946acb02153ec002153ec03529ed463529ed468e7329c08e7329c01de841861de841`
 
